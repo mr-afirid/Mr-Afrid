@@ -1,9 +1,9 @@
-// --- 0. BACKGROUND MUSIC CONTROLLER ---
+6// --- 0. BACKGROUND MUSIC CONTROLLER ---
 const bgMusic = document.getElementById('bgMusic');
 let musicStarted = false;
 
 function playBackgroundMusic() {
-    if (!musicStarted) {
+    if (!musicStarted)
         bgMusic.currentTime = 0;
         bgMusic.play().then(() => {
             musicStarted = true;
@@ -241,7 +241,7 @@ function executeCinematicEnvelopeOpen() {
 
 // --- 8. HIGH END EDITORIAL TYPEWRITER RENDERING MATRIX (Extended & Slower Speeds) ---
 const letterTextContent = 
-`Dear Shajahn Miss,
+`Dear Shahjahan Miss,
 
 This letter is a small token of gratitude for your incredible dedication and warmth. Your patience transforms complex ideas into simple milestones, and your constant support gives us the confidence to reach higher every single day. 
 
